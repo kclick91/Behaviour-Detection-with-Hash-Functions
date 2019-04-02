@@ -25,11 +25,15 @@ but
 
 ## Sample Pseudocode
 ToSHA256(2)
+
 ToSHA256(True, False)
+
 LinkHashes()
 
 ToSHA256(2)
+
 ToSHA256(False, True)
+
 LinkHashes()
 
 CompareHashes() //returns that the second block in the sequence is the difference
