@@ -39,7 +39,9 @@ LinkHashes()
 CompareHashes() //returns that the second block in the sequence is the difference
 
 
-
-
-
+## Parameter types
+Parameter types could include
+1. Action
+2. Condition
+3. Result of Action
 
