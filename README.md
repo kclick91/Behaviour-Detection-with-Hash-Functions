@@ -57,5 +57,8 @@ The use of chains is to detect which sequence seems to cause the most
 problems over time. The hashes along with the chains allow significant
 and useful data to be compressed in to a hash. 
 
+A program only has to check the similitary of chains before looking deeper
+into each block of a chain.
+
 Category labels will generalize an excess of information that leads up
 to a success or failure.
