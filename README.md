@@ -50,3 +50,5 @@ The border lines between success and failure during random attempts
 determine categories when there are no boundaries for categories
 determined before training begins.
 
+A range of categories could be set for each action, condition, or result.
+
