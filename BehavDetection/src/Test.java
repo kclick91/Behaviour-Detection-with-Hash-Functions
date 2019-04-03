@@ -13,8 +13,11 @@ public class Test {
         System.out.println(ch.GetList());
         System.out.println(chtwo.GetList());
 
-        System.out.println(bd.CheckChains(ch, chtwo));
-        System.out.println(bd.LocateBlock(ch, chtwo));
+        if(bd.CheckChains(ch, chtwo) == false)
+        {
+            System.out.println(bd.LocateBlock(ch, chtwo));
+        }
+
 
 
 
