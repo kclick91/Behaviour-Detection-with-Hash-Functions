@@ -52,3 +52,6 @@ determined before training begins.
 
 A range of categories could be set for each action, condition, or result.
 
+## Chains
+The use of chains is to detect which sequence seems to cause the most
+problems over time.
