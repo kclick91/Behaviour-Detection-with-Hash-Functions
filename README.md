@@ -54,4 +54,8 @@ A range of categories could be set for each action, condition, or result.
 
 ## Chains
 The use of chains is to detect which sequence seems to cause the most
-problems over time.
+problems over time. The hashes along with the chains allow significant
+and useful data to be compressed in to a hash. 
+
+Category labels will generalize an excess of information that leads up
+to a success or failure.
