@@ -45,3 +45,8 @@ Parameter types could include
 2. Condition
 3. Result of Action
 
+## Training categories
+The border lines between success and failure during random attempts
+determine categories when there are no boundaries for categories
+determined before training begins.
+
