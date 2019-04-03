@@ -1,6 +1,10 @@
 # Behaviour-Detection-with-Hash-Functions
 A method to detect where a sequence of events are different.
 
+Check Hashes of Chains
+Check Hashes of Parameter Sets
+Adjust actions
+
 ## Step 1: 
 Hash certain parameters that are categorized and place in a chain of events.
 
