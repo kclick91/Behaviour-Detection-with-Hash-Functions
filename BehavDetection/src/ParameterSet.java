@@ -37,4 +37,5 @@ public class ParameterSet {
         String s = action + condition + result;
         return ToSHA256(s.getBytes());
     }
+
 }

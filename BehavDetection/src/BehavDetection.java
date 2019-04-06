@@ -10,6 +10,8 @@ public class BehavDetection {
     private ArrayList<LinkedList<String>> list;
     private ArrayList<LinkedList<String>> listtwo;
 
+    private ArrayList<LinkedList<String>> comparison;
+
     public BehavDetection()
     {
 
@@ -33,7 +35,7 @@ public class BehavDetection {
         int ret = -1;
        for(String s : c.GetList())
        {
-           if (s != cold.GetList().get(c.GetList().indexOf(s)))
+           if (!s.equals(cold.GetList().get(c.GetList().indexOf(s))))
            {
                ret = c.GetList().indexOf(s);
            }
