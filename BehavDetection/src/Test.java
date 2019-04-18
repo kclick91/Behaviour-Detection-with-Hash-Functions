@@ -30,6 +30,8 @@ public class Test {
         ch.AddParamSet(new ParameterSet(String.valueOf(didShoot), distCat, String.valueOf(didMake)));
         //action, condition, result is all true in second chain
         ch.AddParamSet(new ParameterSet("True","True", "True"));
+        ch.AddParamSet(new ParameterSet("True", "True", "True"));
+
         int disttwo = 12;
         String distCatTwo;
         if (disttwo < 10)
@@ -43,13 +45,16 @@ public class Test {
         chtwo.AddParamSet(new ParameterSet(String.valueOf(didShoot), distCatTwo, String.valueOf(didMake)));
         //action, condition, result is all true in second chain
         chtwo.AddParamSet(new ParameterSet("True", "True", "True"));
+        chtwo.AddParamSet(new ParameterSet("True", "True", "False"));
 
-        //System.out.println(ch.GetList());
-        //System.out.println(chtwo.GetList());
+        System.out.println(ch.GetList());
+        System.out.println(chtwo.GetList());
         if(bd.CheckChains(ch, chtwo) == false)
         {
-            System.out.println(bd.LocateBlock(ch, chtwo));
+            System.out.println(bd.LocateBlocks(ch, chtwo));
         }
+
+
 
 
     }

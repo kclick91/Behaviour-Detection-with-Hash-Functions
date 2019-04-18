@@ -30,16 +30,20 @@ public class BehavDetection {
     {
 
     }*/
-    public int LocateBlock(Chain c, Chain cold)
+    public ArrayList<Integer> LocateBlocks(Chain c, Chain cold)
     {
-        int ret = -1;
-       for(String s : c.GetList())
+
+        ArrayList<Integer> blocksDetected = new ArrayList<>();
+
+       for(int i = 0; i < c.GetList().size(); i++)
        {
-           if (!s.equals(cold.GetList().get(c.GetList().indexOf(s))))
+           String s = c.GetList().get(i);
+           if (!s.equals(cold.GetList().get(i)))
            {
-               ret = c.GetList().indexOf(s);
+               blocksDetected.add(i);
            }
        }
-       return ret;
+       return blocksDetected;
     }
+
 }
