@@ -8,6 +8,7 @@ public class Action
 {
     private int value;
     private boolean isGoodAction;
+    private boolean isTestAction;
     public Action(int val)
     {
         value = val;
@@ -15,7 +16,7 @@ public class Action
 
     public int SwitchValue(int val)
     {
-        if (!isGoodAction)
+        if (!isGoodAction || isTestAction)
         {
             value = val;
         }
@@ -27,5 +28,11 @@ public class Action
     {
         isGoodAction = b;
         return isGoodAction;
+    }
+
+    public boolean SetIsTestAction(boolean b)
+    {
+        isTestAction = b;
+        return isTestAction;
     }
 }
