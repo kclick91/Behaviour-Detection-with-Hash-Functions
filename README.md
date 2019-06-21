@@ -1,5 +1,7 @@
 # Behaviour-Detection-with-Hash-Functions
 A method to detect where a sequence of events are different.
+Possibly an effective way to be alerted to and focus on individual actions among complex
+asynchronous actions by a system.
 
 Check Hashes of Chains
 Check Hashes of Parameter Sets
